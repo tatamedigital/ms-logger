@@ -1,0 +1,62 @@
+# Ignorar arquivos e diretórios do IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignorar logs de build
+/logs/
+*.log
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar build do Maven
+/target/
+!/src/main/**/target/ # Excluir alvos dentro de src/main
+
+# Ignorar build do Gradle
+/build/
+
+# Ignorar arquivos de dependências baixadas
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignorar configurações de IDEs
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignorar variáveis de ambiente e arquivos sensíveis
+.env
+*.env
+
+# Ignorar cache de testes
+/test-output/
+
+# Ignorar arquivos de ferramentas como Lombok e logs locais
+.lombok/
+*.out
+
+# Ignorar cache do IntelliJ
+/out/
+
+# Ignorar configurações locais do Spring Boot Devtools
+/spring-boot-devtools.properties
+
+# Ignorar binários e arquivos compilados
+*.class
+*.war
+*.ear
+
+# Ignorar arquivos de integração contínua gerados localmente
+.ci/
+*.yml~
+
+# Ignorar arquivos de backup ou temporários
+*~
+*.bak
+*.tmp
