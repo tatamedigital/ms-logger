@@ -15,7 +15,7 @@ public class LogService {
     private final LogRepository logRepository;
 
     public LogService(
-            @Value("${logger.database.type:in-memory}") String databaseType,
+            @Value("${logger.database.type:inmemory}") String databaseType,
             List<LogRepository> repositories
     ) {
         this.logRepository = repositories.stream()

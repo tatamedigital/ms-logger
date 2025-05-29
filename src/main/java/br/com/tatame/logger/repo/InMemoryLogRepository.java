@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-@Repository
+@Repository("in-memory")
 public class InMemoryLogRepository implements LogRepository {
 
     private final List<LogEntry> logs = new ArrayList<>();
